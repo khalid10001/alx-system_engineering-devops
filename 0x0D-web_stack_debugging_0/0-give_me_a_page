@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-# Start Apache so as to return a
-# page conatining Hello Holberton
+# start Apache2 inside docer
+
+echo "Hello Holberton" >> /etc/apache2.conf
 service apache2 start
